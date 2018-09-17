@@ -1,5 +1,6 @@
 language: java
 sudo: false # faster builds
+
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash) -t 5dcc5074-d0ea-46da-81d4-e5bb63a8d1ac
 
